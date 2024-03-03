@@ -1,10 +1,11 @@
 Proyecto modelo de un gestor de facturas, servicios y abonados para una pyme de servicios, en este caso dedicados a brindar servicios de Cable e Internet.
 
-LA BASE DE DATOS CUENTA CON DATOS EJEMPLO CREADOS, PUEDEN REALIZARCE PRUEBAS CON EL ABONADO 14071
+LA BASE DE DATOS CUENTA CON DATOS EJEMPLO CREADOS
 En el menu principal hay 3 opciones con diferentes submenus los cuales detallo a continuacion:
 
 DATOS DE ACCESO AL SISTEMA
-Usuario = Emanuel Password = Emanuel123
+User = Emanuel 
+Password = Emanuel123
 
 1 - ABONADOS:
 Altas: Aqui se pueden dar de alta nuevos abonados.
