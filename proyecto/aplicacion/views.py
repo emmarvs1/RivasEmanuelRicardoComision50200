@@ -31,7 +31,7 @@ def dashboard():
         'abonados': Abonado.objects.all(),
         'debeFacturas': debeFacturas,
         'totalDeuda': totalDeuda['total'],
-        'minDeuda': round(minDeuda['total'],2),
+        'minDeuda': round(minDeuda['total'], 2) if minDeuda and minDeuda['total'] is not None else 0.0,
         'alertasStatus': True,
         'totalCobrado': totalCobrado['total'],
         'pagasFacturas': pagasFacturas
@@ -375,7 +375,7 @@ def login_request(request):
             try:
                 avatar = Avatar.objects.get(user=request.user.id).imagen.url
             except:
-                avatar = "/media/avatares/default.png"
+                avatar = "/media/avatatares/"
             finally:
                 request.session["avatar"] = avatar
             #__________________________________________
