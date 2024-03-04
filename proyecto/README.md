@@ -1,38 +1,40 @@
-Proyecto modelo de un gestor de facturas, servicios y abonados para una pyme de servicios, en este caso dedicados a brindar servicios de Cable e Internet.
-
-LA BASE DE DATOS CUENTA CON DATOS EJEMPLO CREADOS
-En el menu principal hay 3 opciones con diferentes submenus los cuales detallo a continuacion:
+Proyecto modelo de un gestor de facturas, servicios y abonados para servicios de cable e internet de alta calidad.
 
 DATOS DE ACCESO AL SISTEMA
 User = Emanuel 
 Password = Emanuel123
 
+Una vez ingresado al servidor se encontrara con un menu de Usuarios/Abonados, Facturas, Servicios y Tickets.
+
 1 - ABONADOS:
-Altas: Aqui se pueden dar de alta nuevos abonados.
+Altas: En esta seccion daremos nuevas altas de Abonados.
 
-Lista: Se lista el padron completo de abonados registrados en la base de datos.
+Lista: Se lista la informacion completa de los abonados.-
 
-Buscar: Se puede buscar por APELLIDO dentro del padron de abonados.
+Buscar: Se busca por APELLIDO.
 
 2 - Facturas:
-Emitidas: Se listan todas las facturas emitidas desde el menu altas.
 
-Pagas: Se listan todas las facturas emitidas con la condicion Paga = True.
+Emitidas: Se lista en detalle el Nro de Abonado, tipo de servicio y fecha de solicitud.
 
-Busar Facturas: Se busca factura por fecha.
+Pagas: Se encarga de solamente enlistar las facturas pagas.
 
-Alta Facturas: Se pueden dar de alta nuevas facturas dentro de la base de datos.
+Buscar Facturas: Se busca la factura por a;o.
+
+Alta Facturas: Alta de nuevas facturas. se solicita Nro de abonado, factura, monto, fecha, tipo de servicio y un casillero de pago o no de servicio(se puede modificar).
 
 3 - Servicios:
+
 Contratados: Se listan todos los servicios contratados con Numero de abonado.
 
-Buscar: Se puede buscar servicio por NOMBRE del mismo.
+Buscar: Se busca servicio por nombre del servicio.
 
-Nuevo: Se puede crear un nuevo servicio y relacionarlo con el numero de abonado segun corresponda.
+Nuevo: Se puede agregar un nuevo servicio.
 
-3 - Tickets:
-Tickets: Se listan todos los Tickets generados en el sistema con Numero de abonado.
+4 - Tickets:
+
+Tickets: Listado de Tickets generados Numero de Ticket y el estado de la misma.
 
 Buscar: Se puede buscar servicio por NUMERO del mismo.
 
-Nuevo: Se puede crear un nuevo servicio Ticket y relacionarlo con el numero de abonado segun corresponda.
+Nuevo: Se puede dar de alta un nuevo ticket en la que solitica Nro de Ticket, Fecha, Descripcion Nro de Abonado y un casillero que indica en que estado se encuentra el ticket(se puede modificar)
